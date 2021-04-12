@@ -1,4 +1,4 @@
-% Plot a Response Spectrum (red = pseudo-£¬blue = absolution-,default for acceleration with normalization,)
+% Plot a Response Spectrum (red = pseudo-Â£Â¬blue = absolution-,default for acceleration with normalization,)
 % Input:
 % 1) wave = Ground Motion (gal);
 % 2) kesi = Damping ratio
@@ -11,6 +11,9 @@
 % 1) Figure S-T;
 % 2) peak_psd = pseudo-;
 % 3) peak_abs = absolution-
+
+% Reference
+% http://blog.sina.com.cn/s/blog_6d28b2530102uzez.html
 
 
 function [peak_abs, peak_psd] = response_spectrum(wave,dt,kesi,abs_psd,dT,fig,variable,normalize)
